@@ -2,6 +2,8 @@
 
 This repository contains a learning-oriented fork of a centralized exchange (CEX) inspired by KuCoin. It is organized as a monorepo with a `front-end/` React client and a `back-end/` service layer (to be implemented). Use it as a starting point for experimenting with exchange-style flows such as authentication, portfolio management, order entry, and market data displays.
 
+**📺 [Watch the Video](https://www.youtube.com/watch?v=uDJoPHH-dn8)**
+
 ### Project Structure
 - `front-end/`: Vite + React application, currently providing most of the KuCoin-like UI/UX, page flows, and mock data hooks.
 - `back-end/`: Placeholder for Node.js/TypeScript services that will eventually power account, wallet, and order-matching APIs.

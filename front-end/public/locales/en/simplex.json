@@ -1,0 +1,37 @@
+{
+  "navigation": {
+    "pageTitle": "Buy with Credit Card",
+    "link": "Buy With Credit Card"
+  },
+  "form": {
+    "title": "Buy with Credit Card",
+    "purchaseHistory": "Purchase History",
+    "confirmWithdrawal": "Confirm Withdrawal",
+    "amount": {
+      "placeholder": "Order Amount"
+    },
+    "charge": {
+      "placeholder": "Total Charge (fee included)"
+    },
+    "validations": {
+      "min": "Minimum purchase amount is $50.00 USD equivalent",
+      "max": "Maximum purchase amount is $20,000 USD equivalent"
+    },
+    "confirmModal": {
+      "title": "Confirm your order",
+      "amount": "Order amount",
+      "fee": "Transaction Fee",
+      "account": "Deposit to account",
+      "charge": "Total Charge (fee included)",
+      "disclaimer": "By clicking Confirm, you will be leaving {{exchangeName}} and be taken to Simplex.com to complete your payment, which is a separate platform owned by a third party. Please read and agree to the <1>Terms of Use</1> of Simplex before using the service. For any questions relating to credit card payments, please contact support@simplex.com. {{exchangeName}} does not assume any responsibility for any loss or damage caused by the use of the credit card payment service."
+    },
+    "simplexFaq": {
+      "why": "Advantages",
+      "fast": "Convenience: Visa, Mastercard Credit and Debit Card accepted.",
+      "low": "Low Fees: 5.2%",
+      "convenient": "Instantaneous deposit of cryptocurrency into your wallet (subject to blockchain confirmation times)."
+    },
+    "button": "Buy Now"
+  },
+  "paymentSuccess": "Your payment was successful! Please wait up to 30 minutes for your cryptocurrency to deposit to your wallet."
+}

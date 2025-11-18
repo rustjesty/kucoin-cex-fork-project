@@ -1,0 +1,346 @@
+{
+  "KYCType": {
+    "label": "Type of verification",
+    "placeholder": "Select the type of the KYC verification",
+    "options": {
+      "individual": "Individual",
+      "corporate": "Corporate"
+    }
+  },
+  "FirstName": {
+    "label": "First name",
+    "placeholder": "First name, for ex. John"
+  },
+  "MiddleName": {
+    "label": "Middle name",
+    "placeholder": "Middle name, for ex. Benedikt"
+  },
+  "LastName": {
+    "label": "Last name",
+    "placeholder": "Last name, for ex. Doe"
+  },
+  "DateOfBirth": {
+    "label": "Date of birth",
+    "placeholder": "Date of birth"
+  },
+  "CompanyName": {
+    "label": "Company name",
+    "placeholder": "Company name, for ex. The Wonderful Company"
+  },
+  "Website": {
+    "label": "Company website",
+    "placeholder": "Company website, for ex. wonderful.com"
+  },
+  "Email": {
+    "label": "Email address",
+    "placeholder": "Email address"
+  },
+  "CountryAlpha2": {
+    "label": "Country",
+    "placeholder": "Country in ISO 3166-1 alpha-2 format, for ex. US"
+  },
+  "Nationality": {
+    "label": "Nationality",
+    "placeholder": "Citizenship country in ISO 3166-1 alpha-2 format, for ex. US"
+  },
+  "CurrentAddress": {
+    "label": "Current address",
+    "placeholder": "Current Address",
+    "Town": {
+      "label": "Town",
+      "placeholder": "Town"
+    },
+    "Street": {
+      "label": "Street",
+      "placeholder": "Street"
+    },
+    "State": {
+      "label": "State",
+      "placeholder": "State"
+    },
+    "PostCode": {
+      "label": "Post code",
+      "placeholder": "Post code"
+    },
+    "BuildingNumber": {
+      "label": "Building number",
+      "placeholder": "Building number"
+    },
+    "StateProvinceCode": {
+      "label": "State province code",
+      "placeholder": "State province code"
+    },
+    "CountryAlpha2": {
+      "label": "Country",
+      "placeholder": "Country in ISO 3166-1 alpha-2 format, for ex. US"
+    }
+  },
+  "TaxID": {
+    "label": "Tax ID",
+    "placeholder": "Tax ID",
+    "Number": {
+      "label": "Number",
+      "placeholder": "Number of the document"
+    }
+  },
+  "Passport": {
+    "label": "Passport",
+    "placeholder": "Passport",
+    "Number": {
+      "label": "Number",
+      "placeholder": "Passport number"
+    },
+    "Image": {
+      "label": "Image",
+      "placeholder": "Passport image"
+    },
+    "ValidUntil": {
+      "label": "Valid until",
+      "placeholder": "Valid until"
+    },
+    "IssuedDate": {
+      "label": "Issued date",
+      "placeholder": "Issued date"
+    },
+    "CountryAlpha2": {
+      "label": "Country",
+      "placeholder": "Country in ISO 3166-1 alpha-2 format, for ex. US"
+    },
+    "Mrz1": {
+      "label": "Mrz1",
+      "placeholder": "First line of the Machine Readable Zone (MRZ) of passport, 44 letters and digits, i.e. 'P<CZESPECIMEN<<VZOR<<<<<<<<<<<<<<<<<<<<<<<<<'"
+    },
+    "Mrz2": {
+      "label": "Mrz2",
+      "placeholder": "Second line of the Machine Readable Zone (MRZ) of passport, 44 letters and digits, i.e. '99003853<1CZE1101018M1207046110101111<<<<<94'"
+    }
+  },
+  "CompanyBoard": {
+    "label": "Company’s board of directors",
+    "placeholder": "Certified document containing a list of members of company’s board of directors"
+  },
+  "CompanyRegistration": {
+    "label": "Certificate of company registration",
+    "placeholder": "Certificate of company registration"
+  },
+  "Document": {
+    "label": "Document",
+    "placeholder": "Document",
+    "Type": {
+      "label": "Document type",
+      "placeholder": "Type of the provided document",
+      "options": {
+        "idcard": "ID Card",
+        "passport": "Passport"
+      }
+    },
+    "CountryAlpha2": {
+      "label": "Country",
+      "placeholder": "Country in ISO 3166‑1 alpha‑2 format, for ex. 'TX'"
+    },
+    "Number": {
+      "label": "Number",
+      "placeholder": "Document number"
+    },
+    "Image": {
+      "label": "Image",
+      "placeholder": "Image"
+    },
+    "BackImage": {
+      "label": "BackImage",
+      "placeholder": "Image"
+    }
+  },
+  "Selfie": {
+    "label": "Selfie",
+    "placeholder": "Selfie image of the customer",
+    "Image": {
+      "label": "Image",
+      "placeholder": "Image"
+    }
+  },
+  "IDCard": {
+    "label": "ID card",
+    "placeholder": "Id card of the customer, for ex. US SSN",
+    "Number": {
+      "label": "Number",
+      "placeholder": "ID card number"
+    },
+    "CountryAlpha2": {
+      "label": "Country",
+      "placeholder": "Country in ISO 3166‑1 alpha‑2 format, for ex. 'TX'"
+    }
+  },
+  "LegalName": {
+    "label": "Legal name",
+    "placeholder": "Legal name, for ex. \"John Doe\""
+  },
+  "Gender": {
+    "label": "Gender",
+    "placeholder": "Gender",
+    "options": {
+      "1": "Male",
+      "2": "Female",
+      "3": "Other",
+      "Male": "Male",
+      "Female": "Female",
+      "Other": "Other"
+    }
+  },
+  "MobilePhone": {
+    "label": "Mobile number",
+    "placeholder": "Mobile number"
+  },
+  "FullName": {
+    "label": "Full name",
+    "placeholder": "Full name, for ex. John Doe"
+  },
+  "GuardianName": {
+    "label": "Father's / Spouse name",
+    "placeholder": "Father's / Spouse name"
+  },
+  "MaritalStatus": {
+    "label": "Marital Status",
+    "placeholder": "Marital Status",
+    "options": {
+      "Single": "Single",
+      "Married": "Married"
+    }
+  },
+  "CurrentResident": {
+    "label": "Current Resident",
+    "placeholder": "Current resident country name, for ex. United States of America"
+  },
+  "FlatNumber": {
+    "label": "Flat number",
+    "placeholder": "Flat number"
+  },
+  "Street": {
+    "label": "Street",
+    "placeholder": "Street"
+  },
+  "City": {
+    "label": "City",
+    "placeholder": "City"
+  },
+  "State": {
+    "label": "State",
+    "placeholder": "State"
+  },
+  "ZipCode": {
+    "label": "Zip code",
+    "placeholder": "Zip code"
+  },
+  "Photo": {
+    "label": "Photo",
+    "placeholder": "Photo"
+  },
+  "Address": {
+    "label": "Address Proof",
+    "placeholder": "Address proof"
+  },
+  "Identity": {
+    "label": "Identity Proof",
+    "placeholder": "Identity proof"
+  },
+  "SourceOfIncome": {
+    "label": "Source of Income",
+    "placeholder": "Source of income"
+  },
+  "VATNumber": {
+    "label": "VAT Number",
+    "placeholder": "VAT Number"
+  },
+  "BusinessName": {
+    "label": "Business Name",
+    "placeholder": "Business Name"
+  },
+  "BusinessContactFirstName": {
+    "label": "Business Contact First Name",
+    "placeholder": "Business Contact First Name"
+  },
+  "BusinessContactLastName": {
+    "label": "Business Contact Last Name",
+    "placeholder": "Business Contact Last Name"
+  },
+  "BusinessCurrentAddress": {
+    "label": "Current Address",
+    "placeholder": "Current Address",
+    "Street": {
+      "label": "Street",
+      "placeholder": "Street"
+    },
+    "Town": {
+      "label": "Town",
+      "placeholder": "Town"
+    },
+    "State": {
+      "label": "State",
+      "placeholder": "State"
+    },
+    "PostCode": {
+      "label": "PostCode",
+      "placeholder": "Post code"
+    },
+    "CountryAlpha2": {
+      "label": "Business Current Address Country",
+      "placeholder": "Country in ISO 3166‑1 alpha‑2 format, for ex. 'TX'"
+    }
+  },
+  "BusinessEmail": {
+    "label": "Email",
+    "placeholder": "Email Address"
+  },
+  "BusinessPhone": {
+    "label": "Business Phone",
+    "placeholder": "Business Phone"
+  },
+  "BusinessTaxID": {
+    "label": "Business Tax ID",
+    "placeholder": "Business Tax ID"
+  },
+  "UBO1Name": {
+    "label": "UBO 1 Name",
+    "placeholder": "Ultimate Business Owner 1 Name"
+  },
+  "UBO1Share": {
+    "label": "UBO 1 Share",
+    "placeholder": "Ultimate Business Owner 1 Share"
+  },
+  "UBO2Name": {
+    "label": "UBO 2 Name",
+    "placeholder": "Ultimate Business Owner 2 Name"
+  },
+  "UBO2Share": {
+    "label": "UBO 2 Share",
+    "placeholder": "Ultimate Business Owner 2 Share"
+  },
+  "UBO3Name": {
+    "label": "UBO 3 Name",
+    "placeholder": "Ultimate Business Owner 3 Name"
+  },
+  "UBO3Share": {
+    "label": "UBO 3 Share",
+    "placeholder": "Ultimate Business Owner 3 Share"
+  },
+  "UBO4Name": {
+    "label": "UBO 4 Name",
+    "placeholder": "Ultimate Business Owner 4 Name"
+  },
+  "UBO4Share": {
+    "label": "UBO 4 Share",
+    "placeholder": "Ultimate Business Owner 4 Share"
+  },
+  "IncorporationCertificate": {
+    "label": "Incorporation Certificate",
+    "placeholder": "Incorporation Certificate"
+  },
+  "RegistrationCertificate": {
+    "label": "Registration Certificate",
+    "placeholder": "Registration Certificate"
+  },
+  "ArticlesOfIncorporation": {
+    "label": "Articles Of Incorporation",
+    "placeholder": "Articles Of Incorporation"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Copy Trading",
+  "copyTrading": {
+    "link": "Pro Traders",
+    "details": "When following a user their trading patterns are copied with your own assets.",
+    "noEnrollMessage": "You are only able to follow other users when enrollment is disabled.",
+    "warning": "This feature can be dangerous"
+  },
+  "enrollment": {
+    "link": "Become a Pro Trader",
+    "details": "Enabling this feature allows other users to copy your trade patterns. This feature cannot be enabled when following another user.",
+    "enableEnrollment": "Enroll",
+    "disableEnrollment": "Opt Out"
+  },
+  "trades": {
+    "link": "Copied Trades",
+    "detailsUnfollowed": "When following another user copied trades will appear here.",
+    "details": "These trades are copied from the user you are currently following."
+  },
+  "table": {
+    "name": "Name",
+    "country": "Country",
+    "roi": "Performance (30D)",
+    "actions": "Actions",
+    "follow": "Follow",
+    "unfollow": "Unfollow"
+  },
+  "form": {
+    "ratio": {
+      "label": "Copy Trade Ratio",
+      "placeholder": "15"
+    },
+    "copy": {
+      "label": "Copy Open Positions?"
+    }
+  }
+}

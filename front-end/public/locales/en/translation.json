@@ -1,0 +1,1929 @@
+{
+  "defaultPageTitle": "{{exchangeName}}",
+  "navbar": {
+    "links": {
+      "home": "Home",
+      "trade": "Trade",
+      "account": "Account",
+      "orders": "Orders",
+      "wallet": "Wallet",
+      "login": "Login",
+      "logout": "Log Out",
+      "signup": "Sign Up",
+      "instaTrade": "InstaTrade",      
+      "derivatives": "Derivatives",
+      "NDWallet": "ND Wallet",
+      "socialTrade": "SocialTrade",
+      "p2pMenu": {
+        "p2p": "P2P",
+        "offers": "Offers",
+        "paymentSettings": "Payment Settings",
+        "postNewOffer": "Post New Offer",
+        "MyOffers": "My Offers",
+        "MyOrders": "My Orders",
+        "p2pWallet": "P2P Wallet"
+      }
+    },
+    "analyticsContainer": {
+      "coinInfo": "Coin Info",
+      "lastPrice": "Last Price",
+      "change": "24h Change",
+      "volume": "24h Volume",
+      "priceHigh24h": "24h High",
+      "priceLow24h": "24h Low"
+    }
+  },
+  "footer": {
+    "riskAndAdvisory": "Risk and Advisory",
+    "support": "Support",
+    "disclaimer": "Disclaimer: The purchase of digital currencies is conducted through {{exchangeName}}. By accessing this site, you agree to be bound by its Terms of Service and Privacy Policy.",
+    "advisory": "Digital currencies are not currently backed nor supported by any government or central bank. The value of digital currencies is determined by economy of supply and demand, and they are more volatile than traditional currencies. Trading in digital currencies comes with significant risks, including volatile market price swings or flash crashes, market manipulation, and cybersecurity risks. In addition, digital currency markets and exchanges are not regulated with the same controls or customer protections available in equity, option, futures, or foreign exchange investing. Digital currency trading requires knowledge of digital currency markets. In attempting to profit through digital currency trading, you must compete with traders worldwide. You should have appropriate knowledge and experience before engaging in substantial digital currency trading. Digital currency trading may not generally be appropriate, particularly with funds drawn from retirement savings, student loans, mortgages, emergency funds, or funds set aside for other purposes. Digital currency trading can lead to large and immediate financial losses. Under certain market conditions, you may find it difficult or impossible to liquidate a position quickly at a reasonable price. This can occur, for example, when the market for a particular digital currency suddenly drops, or if trading is halted due to recent news events, unusual trading activity, or changes in the underlying digital currency system. Several federal agencies have also published advisory documents surrounding the risks of virtual currency. For more information see the <1>CFPB’s Consumer Advisory</1>, the <3>CFTC’s Customer Advisory</3>, the <5>SEC’s Investor Alert</5>, and <7>FINRA’s Investor Alert</7>.",
+    "legal": "{{exchangeName}} does not make any investment recommendations. Neither the listing of a digital currency on this website nor any other communication, whether made through this website or in any other way, should be construed as a recommendation to buy or sell any security.",
+    "copyright": {
+      "company": "Copyright © {{year}} by {{exchangeName}}",
+      "rights": "All Rights Reserved."
+    },
+    "currencies": "Currencies",
+    "apiDocumentation": "API Documentation",
+    "assetStatus": "Asset Status",
+    "fees": "Exchange Fees",
+    "tradingRules": "Trading Rules",
+    "links": {
+      "home": "Home",
+      "trade": "Trade",
+      "account": "Account",
+      "Orders": "Orders",
+      "wallet": "Wallet"
+    },
+    "pages": {
+      "AboutUs": "About Us",
+      "ContactUs": "Contact Us",
+      "PrivacyPolicy": "Privacy Policy",
+      "CookiePolicy": "Cookie Policy",
+      "RiskDisclosure": "Risk Disclosure",
+      "TermsOfService": "Terms of Service",
+      "TestingPage": "Testing Page"
+    },
+    "more": "More"
+  },
+  "buttons": {
+    "login": "Login",
+    "logout": "Log Out",
+    "submit": "Submit",
+    "signUp": "Sign Up",
+    "copy": "Copy",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "No",
+    "addKey": "Add New Key",
+    "enable2FA": "Enable 2FA",
+    "enableKyc": "Enable KYC",
+    "disable2FA": "Disable 2FA",
+    "deposit": "Deposit",
+    "withdrawal": "Withdrawal",
+    "forgotPassword": "Forgot Password?",
+    "exportData": "Export Data",
+    "disabled": "Disabled",
+    "accept": "Accept",
+    "decline": "Decline",
+    "reload": "Reload",
+    "transfer": "Transfer",
+    "moveFunds": "Move funds"
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "tooltip": {
+    "settings": "Change the theme, language, or fiat estimation currency."
+  },
+  "messages": {
+    "Exception_General": "Our servers are experiencing some glitch, please try again later.",
+    "Exception_Email": "Unable to send an email. try again later",
+    "Exception_BadRequest": "Invalid Payload",
+    "Exception_HMAC_Missing": "Must provide the HMAC of the request body.",
+    "Exception_HMAC_Validation": "HMAC validation failed.",
+    "Exception_TimeStamp": "Invalid timestamp.",
+    "Exception_RecvWindow": "Invalid recvWindow value.",
+    "Exception_TimeStamp_Window_Invalid": "Timestamp for this request is outside of the recvWindow.",
+    "Exception_Body_Missing": "Must provide the request body.",
+    "Exception_Invalid_Body": "Request body was invalid.",
+    "Exception_Invalid_Address": "Invalid Address.",
+    "Exception_Invalid_OrderSide": "Invalid parameter 'side', must be 'BUY' or 'SELL'",
+    "Exception_Invalid_Orderid": "The OrderId or clientOrderId is required",
+    "Exception_Invalid_CurrencyName": "Invalid Currency name",
+    "Exception_Invalid_XRP_DTag_Required": "Must provide the addressTag for XRP address.",
+    "Order_Trade_Suspended": "Sorry! Trade Suspended.",
+    "Order_Invalid_Order_Type": "Invalid Order Type.",
+    "Order_Invalid_Client_Order_ID": "Order with this client order id already exists.",
+    "Order_Invalid_Pair": "Invalid Pair.",
+    "Order_Invalid_Trade_Volume": "Invalid Trade Volume.",
+    "Order_Cannot_Be_Served": "Volume Order cannot be served.",
+    "Order_Invalid_Stop_Price": "Invalid Stop Price.",
+    "Order_Invalid_Trade_Price": "Invalid Trade Price.",
+    "Order_Invalid_Rate_Volume": "Invalid Rate/Volume.",
+    "Exception_Link_Expired": "The link has expired.",
+    "Exception_Insufficient_Funds": "Insufficient Funds.",
+    "Exception_Coin_Maintenance": "Sorry! Coin under maintenance.",
+    "Exception_Account_Suspended": "Sorry! Account Suspended.",
+    "Address_No_Unused_Address": "No unused address available.",
+    "Withdrawal_Invalid_Amount": "Sorry! Invalid Withdrawal Amount.",
+    "Withdrawal_Suspended": "Sorry! Withdrawals are currently suspended",
+    "Success_General": "Success!",
+    "Success_NoRowsFound": "No Rows Found!",
+    "Success_Saved": "Details Saved Successfully.",
+    "Success_Deleted": "Details deleted Successfully.",
+    "Error_Disabled_BY_Admin": "Feature disabled by admin.",
+    "Failure_General": "Something went wrong. Please try again later.",
+    "Failure_GME": "GME Busy.. try later.",
+    "Request_Invalid": "Invalid request.",
+    "Trade_CurrencyType_Missing": "Must provide the trade currency.",
+    "Trade_TradeType_Missing": "Must provide the trade type.",
+    "Trade_TradeType_Invalid": "Invalid parameter 'type'. Options are 'MARKET', 'STOPLIMIT' or 'LIMIT'",
+    "Trade_Volume_Invalid": "Invalid trade volume.",
+    "Trade_Rate_Invalid": "Invalid trade rate.",
+    "Trade_Stop_Invalid": "Invalid stop rate.",
+    "Trade_MarketType_Missing": "Must provide the market currency.",
+    "Trade_Invalid_Size": "Invalid trade size.",
+    "Withdrawal_Error": "Must provide the market currency.",
+    "Facility_Suspended": "This facility is blocked for your account.",
+    "Feature_Disabled": "This feature is currently disabled.",
+    "Coin_Maintenance": "Coin under maintenance.",
+    "InsufficientFunds": "Insufficient funds.",
+    "SignUp_Invalid_Referrer": "Referral ID does not exist.",
+    "SignUp_Duplicate_Mobile": "Mobile number already exists.",
+    "SignUp_Duplicate_Email": "Email already exists.",
+    "SignUp_Phone_Error": "Email already exists.",
+    "SignIn_Authentication_Failed": "Invalid login credentials.",
+    "SignIn_Invalid_OTP": "Invalid OTP",
+    "SignIn_Missing_OTP": "Must provide the otp.",
+    "SignIn_Unvarified_Email": "Email Unverified. Please reset your password.",
+    "SignIn_Suspended_Account": "This account is currently suspended, please contact our support team to restore access.",
+    "ChangePassword_Same_Error": "Your new password cannot be the same as old password.",
+    "ChangePassword_Invalid_OldPassword": "Password provided doesn't match our records.",
+    "GAuth_Required": "Must provide the $t(multiFactorAuth.name) Code.",
+    "GAuth_Enabled_Mandatory": "Enable $t(multiFactorAuth.name) to use the endpoint.",
+    "GAuth_Two_Factor_Error": "Invalid $t(multiFactorAuth.name) Code.",
+    "GAuth_Two_Factor_Already_Enabled": "$t(multiFactorAuth.name) is already enabled.",
+    "KYC_Not_Approved": "You must be KYC approved in order to use this feature.",
+    "KYC_Custom_Error": "Custom Error",
+    "KYC_Provider_Error": "KYC service provider not found.",
+    "KYC_Upload_Error": "Unable to Upload KYC.",
+    "KYC_Image_NotFound": "No Image Found!",
+    "KYC_Approved_Error": "KYC already approved.",
+    "KYC_Pending_Error": "Your KYC is processing. We'll notify once it's processed.",
+    "KYC_Invalid_CID_Email": "Email or CID does not exists.",
+    "KYC_Not_Submitted": "KYC not submitted yet.",
+    "KYC_Form_NotFound": "KYC not submitted yet.",
+    "KYC_Form_Corrupted": "KYC form is corrupted.",
+    "KYC_Server_Down": "KYC server down.",
+    "Payment_Amount_Missing": "There must be some amount.",
+    "Payment_Gateway_Invalid": "Invalid payment gateway.",
+    "API_Inavalid_IP": "Invalid IP Address(es)",
+    "API_Key_Type_Required": "Invalid Key type. Allowed options are 'trade','readonly','all'",
+    "API_Secretkey_Required": "The Secret Key is missing in the Header.",
+    "Invalid_Currency": "Invalid currency.",
+    "Invalid_Fiat_PG_Currency": "Invalid Fiat PG currency.",
+    "DepositDisabled": "Deposit disabled for this currency.",
+    "WithdrawalLimitReached": "Withdrawal limit reached.",
+    "InvalidLanguage": "Language not found.",
+    "TransitiveFollowing": "Transitive-following not allowed.",
+    "SelfFollowing": "Self-following not allowed.",
+    "InvalidProTraderID": "Invalid ProTrader UserID.",
+    "MultipleFollowing": "Multiple-following not allowed.",
+    "WeakPassword": "Password must have 8 characters with at least 1 lowercase letter, 1 uppercase letter,  and 1 number.",
+    "WithdrawalPending": "Another withdrawal is pending already for same currency, please complete this request before making another.",
+    "DepositPending": "another fiat deposit request is pending already for same currency",
+    "WithdrawalLimitReachedExclusive": "You are currently over your withdrawal limit or this request will place you above your withdrawal limit.",
+    "WithdrawalLimitReachedAggregate": "You are currently over your withdrawal limit or this request will place you above your withdrawal limit.",
+    "ReadOnlyToken": "Read-only access token doesn't have the permission to perform this operation.",
+    "MarginCall": "Placing new order is not allowed while a margin call is pending.",
+    "Force_Liquidation": "Placing new order is not allowed while a force liquidation in process.",
+    "Feature_Unavailable": "This feature is not available for your account.",
+    "KYC_ProviderNotMatched_Error": "KYC service provider found does not match.",
+    "KYC_Inavlid_CID_Email": "Email or CID does not exist.",
+    "Order_Coin_Maintenance": "Sorry! Coin under maintenance.",
+    "Order_Account_Suspended": "Sorry! Account Suspended.",
+    "orderCancelled": "Order successfully cancelled.",
+    "orderPlaced": "Order successfully placed.",
+    "HMAC validation has failed": "HMAC validation has failed",
+    "invalid_grant": "Entered code not valid.",
+    "incorrect 2FA Code": "incorrect 2FA Code",
+    "Device_OTP_Invalid": "invalid device OTP",
+    "Sorry, something went wrong Please try again": "somethingWentWrong",
+    "otpExpired": "Oops! Your email one time password expired - please log in and try again.",
+    "Unable to authenticate user": "Unable to authenticate user.",
+    "An error occurred while updating the entries See the inner exception for details": "An error occurred while updating the entries. See the inner exception for details.",
+    "A verification link has been sent to your email": "A verification link has been sent to your email.",
+    "messageSentToEmailAddress": "A verification link has been sent to your email address.",
+    "successfulEmailVerification": "Success! Your email has been verified.",
+    "success2fa": "Success! Please input your two factor password next.",
+    "successfulLogin": "Logged in successfully!",
+    "emailOtp": "Success! Check your email for the one time password.",
+    "successfulPasswordChange": "Your password has been succesfully changed!",
+    "successfulPasswordReset": "Password reset successfully!",
+    "unsuccessfulPasswordReset": "Reset password link expired, or new password is same as previous. Please enter email address to receive a new link.",
+    "successfulLogout": "Logged out successfully!",
+    "clipboardCopied": "Copied to clipboard!",
+    "2faEnabled": "2FA successfully enabled!",
+    "2faDisabled": "2FA successfully disabled!",
+    "apiKeyAdded": "Success! New API key was generated",
+    "apiKeyRemoved": "Success! API key was removed.",
+    "generatedAddress": "Success! New deposit address generated.",
+    "withdrawalRequest": "Withdrawal request received. Check your email to confirm request.",
+    "keyGenerated": "Public Key: {{ publicKey }} &#13; Private Key: {{ privateKey }} &#13; Save the private key somewhere safe, you will only see it once",
+    "addressSuccess": "Address successfully created.",
+    "successfulKycSubmission": "Information successfully submitted, check back soon for updated verifications status.",
+    "instaTradeSuccess": "Your request was received, please check your email to confirm the transaction.",
+    "timeDifference": "Your computer's time is out of sync with World Clock & our server's time. Please update your Date & Time settings to match World Clock. You can check the World Clock here: https://www.timeanddate.com/worldclock/. Some functionality will not work until this is resolved.",
+    "ChainAlysis_Blacklisted": "AML Risk Assessment Failed for this transaction.",
+    "CipherTrace_Blacklisted": "AML Risk Assessment Failed for this transaction.",
+    "IP_Abuse": "Your IP is potentially trying to abuse. Too Many requests in short duration. Try after an hour.",
+    "MSG_UNDEFINED": "Unknown message",
+    "MSG_SUCCESS": "Unknown message",
+    "MSG_AUTH_FAILED": "Authorization failed",
+    "MSG_AUTH_SUCCEEDED": "Authorization succeeded",
+    "MSG_ORDER_ACCEPTED": "Order placed successfully.",
+    "MSG_ORDER_USER_CANCELLED": "Order cancelled by user",
+    "MSG_ORDER_CANCELLED_DUE_TO_OCO": "Order cancelled due to OCO",
+    "MSG_ORDER_CANCEL_ACCEPTED": "Unknown message",
+    "MSG_ORDER_CANCEL_REJECTED": "Unknown message",
+    "MSG_ORDER_REJECTED": "Unknown message",
+    "MSG_RISK_SPOOFING_DETECTED": "Potential spoofing market manipulation detected",
+    "MSG_RISK_LAYERING_DETECTED": "Potential layering market manipulation detected",
+    "MSG_RISK_STUFFING_DETECTED": "Potential stuffing market manipulation detected",
+    "MSG_RISK_HAMMERING_DETECTED": "Potential hammering market manipulation detected",
+    "MSG_RISK_MONEY_LAUNDERING_DETECTED": "Potential money laundering behavior detected",
+    "MSG_RISK_OTHER_DETECTED": "Risk warning",
+    "MSG_RISK_ACCOUNT_RESTRICTED": "Account restricted",
+    "MSG_RISK_ACCOUNT_SUSPENDED": "Account suspended",
+    "MSG_RISK_INSUFFICIENT_FUNDS": "Insufficient funds for trade",
+    "MSG_LIMIT_TRADE_TOO_SMALL": "Trade size too small",
+    "MSG_LIMIT_TRADE_TOO_LARGE": "Trade size too large",
+    "MSG_LIMIT_TRADE_TOO_FREQUENT": "Trades too frequent",
+    "MSG_LIMIT_SELF_MATCH_PREVENTION": "Self-match prevention",
+    "MSG_LIMIT_INSUFFICIENT_MARKET_QUANTITY": "Insufficient quantity available",
+    "MSG_LIMIT_PRICE_TOO_LOW": "Limit price too low",
+    "MSG_LIMIT_PRICE_TOO_HIGH": "Limit size too high",
+    "MSG_ERROR_SIDE_NOT_SPECIFIED": "Side not specified",
+    "MSG_ERROR_SYMBOL_INVALID": "Symbol invalid",
+    "MSG_ERROR_TOO_BUSY": "Too busy",
+    "MSG_ERROR_INVALID_ORDER_ID": "Invalid order ID",
+    "MSG_ERROR_DUPLICATE_ORDER_ID": "Duplicate order ID",
+    "MSG_ERROR_INVALID_STOP_ORDER": "Invalid stop order parameters",
+    "MSG_ERROR_ORDER_DOES_NOT_EXIST": "Unknown message",
+    "MSG_ERROR_INVALID_OCO_ORDER": "Invalid order parameters for OCO",
+    "MSG_ERROR_NO_BALANCE": "Balance needs to be greater than zero",
+    "error401": "Your session has expired.",
+    "MSG_ERROR_FAILED_TO_FETCH_ORDERHISTORY": "AMM alert: Failed to fetch order history",
+    "MSG_ERROR_FAILED_TO_FETCH_RATE": "AMM alert: Failed to fetch last traded price",
+    "MSG_ERROR_RISK_DETECTED_NONE": "AMM alert: No risk found",
+    "MSG_ERROR_RISK_DETECTED_PUMP_AND_DUMP": "AMM alert: Pump & dump detected",
+    "MSG_ERROR_RISK_DETECTED_FREQUENT_CANCELLATION": "AMM alert: Frequent cancellation detected",
+    "MSG_ERROR_RISK_DETECTED_SPOOFING_AND_LAYERING": "AMM alert: Spoofing & layering detected",
+    "Exception_Invalid_Token_or_Expired": "Exception Invalid Token or Expired",
+    "P2P_Side_Required":"Side is required.",
+    "P2P_Base_Required":"Base is required.",
+    "P2P_Quote_Required":"Quote is required.",
+    "P2P_Size_Required":"Size is required.",
+    "P2P_Price_Required":"Price is required.",
+    "P2P_Price_Estimation_Failed":"Price Estimation failed.",
+    "p2P_StartPrice_Required":"Start Price is required.",
+    "P2P_Payment_Id_Required":"Payment Id is required.",
+    "P2P_PaymentJSON_Required":"Payment JSON is required.",
+    "P2P_Add_Offer_Failed":"Failed.",
+    "P2P_Offer_Id_Invalid":"Offer Id is invalid.",
+    "P2P_Offer_Id_Required":"Offer Id is required.",
+    "P2P_Payment_Id_Invalid":"Payment Id is invalid.",
+    "P2P_Order_Id_Invalid":"Order Id is invalid.",
+    "P2P_Order_Id_Required":"Order Id is required.",
+    "P2P_Message_Required":"Message is required.",
+    "P2P_Add_Order_Failed":"Failed.",
+    "P2P_Cancel_Offer_Failed":"Sorry! orders in process.",
+    "p2P_DisplayName_Required":"Display Name is required.",
+    "P2P_OrderLimit_LB_Required":"Order limit lower bound is required.",
+    "P2P_OrderLimit_UB_Required":"Order limit upper bound is required.",
+    "P2P_Payment_Ids_Required":"Payment ids is required.",
+    "P2P_FloatingPremium":"Floating premium cannot be zero",
+    "P2P_Payment_Id_Exist":"Payment Id is already exist.",
+    "P2P_UserPayment_Id_Invalid":"User payment id is invalid.",
+    "P2P_UserPayment_Id_Limit_Reached":"maximum 5 ids allowed.",
+    "P2P_PaymentTime_Limit_Required":"Payment time limit is required.",
+    "P2P_RegisteredXDaysAgo_Required":"RegisteredXDaysAgo is required.",
+    "P2P_MinBTCHolding_Required":"Min BTC holding is required.",
+    "P2P_Profile_Not_Found":"Profile not found.",
+    "P2P_UserId_Invalid":"Invalid User.",
+    "P2P_CounterPartyKYC_Failed":"Counter party KYC failed",
+    "P2P_RegisteredXDaysAgo_Failed":"Registered XDays ago failed",
+    "P2P_MinBTCHolding_Failed":"Min BTC holding failed",
+    "P2P_StatusText_Required":"Status Text is required.",
+    "P2P_Invalid_Pair":"Invalid pair.",
+    "P2P_OrderGuid_Required":"Order Guid required.",
+    "P2P_OrderGuid_Invalid":"Order Guid invalid.",
+    "P2P_MakerPaymentMethod_Id_Required":"Maker Payment Method Id required.",
+    "P2P_MakerPaymentMethod_Id_Invalid":"Maker Payment Method Id is invalid.",
+    "P2P_Invalid_Trade":"Self trade is not allowed .",
+    "P2P_Order_Payment_Window_Expired":"Order payment window expired.",
+    "P2P_Primary_Reason_Required":"Primary Reason required.",
+    "P2P_Description_Required":"Description required.",
+    "P2P_Mobile_NO_Required":"Mobile no required.",
+    "P2P_AVProof_Required":"AV Proof required.",
+    "P2P_Gauth_Code_Required":"Gauth code required.",
+    "P2P_Open_Offers_Exists_Delete_Failed":"Sorry! You have open offers associated with this payment method.",
+    "P2P_Open_Offer_Exist":"Another offer is opened already for same currency.",
+    "P2P_Open_Order_Exist":"Another order is opened already for same currency.",
+    "P2P_OTP_Required":"OTP is required.",
+    "P2P_OTP_Invalid":"Invalid OTP or expired.",
+    "P2P_Token_Required":"Token is required.",
+    "P2P_Appeal_Failed":"You cannot appeal again.",
+    "P2P_Offer_Size_Change_Not_Allowed":"You cannot change size for a partially filled offer.",
+    "P2P_OrderLimit_LB_Invalid":"Invalid Lower Limit value",
+    "P2P_OrderLimit_UB_Invalid":"Invalid Upper Limit value",
+    "P2P_Offer_Has_Open_Orders":"Cancellation not allowed when offer has open orders."
+  },
+  "forms": {
+    "validations": {
+      "email": "This field is required in the standard format",
+      "general": "This field is required in the standard format.",
+      "required": "This field is required.",
+      "password": "Password must be at least 8 characters and include 1 uppercase letter and 1 number.",
+      "passwordMatch": "Passwords don't match",
+      "min": "Minimum length of {{length}} required.",
+      "max": "Maximum length of {{length}} required.",
+      "minNumber": "Must be greater than or equal to {{number}}.",
+      "maxNumber": "Must be less than or equal to {{number}}.",
+      "invalidDate": "Must be a valid date.",
+      "invalidFile": "Invalid file type, only jpeg or png images files are allowed.",
+      "invalidPDF": "Invalid file type, only PDF file is allowed.",
+      "fileTooLarge": "File Size exceeds the maximum limit of 1 MB",
+      "invalidAddress": "Invalid {{currencyName}} address.",
+      "referralId": "Referral code must be a number",
+      "orderLowerLimit": "Lower limit must be less than or equal to ${max}",
+      "orderUpperLimit": "Upper limit must be less than or equal to ${max}",
+      "paymentMethodMin": "Must be at least 1 method",
+      "paymentMethodMax": "Must not be more than 1 method",
+      "noSpacesAllowed": "No spaces allowed."
+    },
+    "common": {
+      "gAuth": "$t(multiFactorAuth.name) Code",
+      "month": "Month",
+      "day": "Day",
+      "year": "Year",
+      "fileDialog": "Upload {{type}}",
+      "imagePreview": "Image Preview",
+      "document": "Deposit Proof (Optional)",
+      "documentUploaded": "Document uploaded successfully",
+      "download": "Download",
+      "select": "Select",
+      "search": "Enter your search",
+      "loginOrRegister": "<0>Log In</0> or <2>Register</2> to trade",
+      "yes": "Yes",
+      "no": "No",
+      "browse": "Browse...",
+      "clearPdf": "Remove PDF",
+      "clearImage": "Remove Image"
+    },
+    "additionalInformation": {
+      "heading": "Additional Information Required",
+      "description": "Fill in the form to complete the login process.",
+      "successMessage": "Information successfully saved."
+    },
+    "fiatDeposit": {
+      "notice": {
+        "title": "Deposit By Bank Transfer",
+        "note": "Use the information below to initiate a bank transfer."
+      },
+      "formNotice": "Once you have executed the bank transfer, kindly complete the form below by adding the requested details so we can track the payment to your exchange wallet. You will be notified once the funds have arrived in your account with us.",
+      "bank": "Bank Transfer",
+      "online": "Credit or Debit Card Deposit",
+      "ACH": "ACH Transfers",
+      "paymentMethod": "Select a Deposit Method",
+      "bankName": {
+        "label": "Receiving Bank Name"
+      },
+      "requestAmount": {
+        "label": "Currency Amount Transfered"
+      },
+      "transactionId": {
+        "label": "Bank Transaction ID"
+      },
+      "comments": {
+        "label": "Additional Comments"
+      },
+      "proof": {
+        "label": "Upload Proof of Transfer (Optional)"
+      },
+      "submitted": {
+        "title": "Thank You!",
+        "message": "Your details have been submitted and you will be informed when the transfer of funds to your account has been completed.",
+        "return": "Return"
+      }
+    },
+    "fiatDepositPg": {
+      "warning": "<0>Note:</0> Once you have entered your transaction details below you will be redirected to our payments processor to complete the deposit process.",
+      "redirecting": "You are now being redirected to complete your deposit.",
+      "achmessage": "We've received your request & it is being processed, you should receive credit in your account as soon as we receive funds.",
+      "amount": {
+        "label": "Enter Your Deposit Amount"
+      },
+      "selectBank": {
+        "label": "Select bank"
+      },
+      "comment": {
+        "label": "Enter Additional Comments (Optional)"
+      },
+      "fee": {
+        "label": "Processing Fee"
+      },
+      "percentFee": {
+        "label": "Percent Fee"
+      },
+      "fixedFee": {
+        "label": "Fixed Fee"
+      },
+      "minFee": {
+        "label": "Min Fee"
+      },
+      "maxFee": {
+        "label": "Max Fee"
+      },
+      "minDeposit": {
+        "label": "Min Deposit"
+      },
+      "maxDeposit": {
+        "label": "Max Deposit"
+      },
+      "charge": {
+        "label": "Total Charge Amount (Fee Included)"
+      },
+      "submit": "Go to Payment",
+      "connectBank": "Connect a bank account",
+      "disclaimer": {
+        "title": "Disclaimer",
+        "text": "You will now be redirected to our third party payment processing services relating to credit card payments, which is a separate platform owned by a third party.",
+        "label": "I have read and agreed to the disclaimer.",
+        "error": "You must agree to continue."
+      }
+    },
+    "signUp": {
+      "title": "Sign Up",
+      "success": {
+        "heading": "Registration successful!",
+        "message": "A verification link has been sent to your email."
+      },
+      "firstName": {
+        "placeholder": "Enter your first name"
+      },
+      "middleName": {
+        "placeholder": "Enter your Middle Name"
+      },
+      "lastName": {
+        "placeholder": "Enter your last name"
+      },
+      "emailAddress": {
+        "placeholder": "Enter your email address"
+      },
+      "country": {
+        "placeholder": "Country of residence is required!"
+      },
+      "mobileNumber": {
+        "placeholder": "Enter your mobile phone number"
+      },
+      "mobileOTP": {
+        "placeholder": "Enter your mobile OTP"
+      },
+      "selectCountry": {
+        "placeholder": "Select country"
+      },
+      "password": {
+        "placeholder": "Enter your password"
+      },
+      "confirmPassword": {
+        "placeholder": "Confirm your password"
+      },
+      "refferalCode": {
+        "placeholder": "Referral code"
+      },
+      "agree": {
+        "label": "I agree to all policies and terms set by {{exchangeName}}.",
+        "validation": "You must agree to complete registration."
+      },
+      "mobileOtpButton": "Request OTP",
+      "countryRequired": "Country field can'nt be empty",
+      "mobileNumberRequired": "Mobile Number field can'nt be empty",
+      "mobileOtpSuccessMessage": "The OTP has been sent to your mobile number."
+    },
+    "accountVerification": {
+      "title": "Email Verification",
+      "email": {
+        "placeholder": "Please enter your email address"
+      }
+    },
+    "login": {
+      "title": "Log In",
+      "button": "Login",
+      "email": {
+        "placeholder": "Enter your email address"
+      },
+      "password": {
+        "placeholder": "Enter your password"
+      }
+    },
+    "twoFaLogin": {
+      "resendOtp": "Resend one time password to email",
+      "requestDeviceOtp": "Request OTP",
+      "button": "Login",
+      "emailAuth": {
+        "placeholder": "Enter your one time password from your email"
+      },
+      "googleAuth": {
+        "placeholder": "Enter your $t(multiFactorAuth.length) digit $t(multiFactorAuth.name) code"
+      },
+      "deviceAuth": {
+        "placeholder": "Enter your one time password from your email"
+      },
+      "timeRemaining": "Time Remaining: {{timeRemaining}}"
+    },
+    "enableGoogleAuth": {
+      "authCode": {
+        "placeholder": "Input your $t(multiFactorAuth.length) digit authenticator code"
+      }
+    },
+    "forgotPassword": {
+      "title": "Reset Password",
+      "email": {
+        "placeholder": "Enter your existing email address"
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "email": {
+        "placeholder": "Enter your email address"
+      },
+      "newPassword": {
+        "placeholder": "Enter your new password"
+      },
+      "newPasswordConfirm": {
+        "placeholder": "Confirm your new password"
+      }
+    },
+    "changePassword": {
+      "title": "Change Password",
+      "oldPassword": {
+        "placeholder": "Enter your old password"
+      },
+      "newPassword": {
+        "placeholder": "Enter your new password"
+      },
+      "newPasswordConfirm": {
+        "placeholder": "Confirm your new password"
+      },
+      "otp": {
+        "gAuthPlaceholder": "Enter your $t(multiFactorAuth.name) code",
+        "emailPlaceholder": "Enter your email code"
+      },
+      "otpNotWorking": "Email code not working? Request a new one below.",
+      "otpEmail": "Click the button to receive an email with a temporary code. This code is required to change your password.",
+      "requestOtp": "Request Code",
+      "requestNewOtp": "Request New Code"
+    },
+    "createApiKey": {
+      "title": "Create API Key",
+      "maxIpAddresses": "Three IP address allowed per API key. Enter addresses as comma separated values",
+      "ip": {
+        "placeholder": "Enter whitelisted IP Address",
+        "allowAll": "Allow All"
+      },
+      "gAuth": {
+        "placeholder": "Enter your $t(multiFactorAuth.name) code"
+      },
+      "button": "Generate Key"
+    },
+    "walletWithdrawal": {
+      "confirmWithdrawal": "Confirm Withdrawal",
+      "address": {
+        "placeholder": "{{currency}} Address"
+      },
+      "addressTag": {
+        "placeholder": "{{currency}} Address Tag"
+      },
+      "memoId": {
+        "placeholder": "{{currency}} Memo ID"
+      },
+      "amount": {
+        "placeholder": "Amount"
+      },
+      "minimumAmount":{
+        "minAmount": "min amount"
+      },
+      "emailandSMSVerificationCode": {
+        "placeholder": "Email verification code"
+      },
+      "smsVerificationCode": {
+        "placeholder": "SMS verification code"
+      },
+      "emailVerificationMsg": "Enter the verification code received by the {{email}}",
+      "smsVerificationMsg": "Enter the verification code received by the {{mobileNumber}}",
+      "emailOtpMessage": "To complete your withdrawal you must obtain a one-time-password by email.",
+      "emailOtpSuccessMessage": "The OTP has been sent to your email, you will now be able to continue your withdrwal request.",
+      "emailOtpButton": "Request OTP",
+      "emailOtp": "OTP From Email"
+    },
+    "fiatWithdrawalManual": {
+      "confirmWithdrawal": "Confirm Withdrawal",
+      "requestAmount": {
+        "placeholder": "Request Amount"
+      },
+      "bankName": {
+        "placeholder": "Bank Name"
+      },
+      "beneficiaryName": {
+        "placeholder": "Beneficiary Name"
+      },
+      "accountNumber": {
+        "placeholder": "Account Number"
+      },
+      "bankRoutingCode": {
+        "placeholder": "Bank Routing Code"
+      },
+      "swiftCode": {
+        "placeholder": "Swift Code"
+      },
+      "emailandSMSVerificationCode": {
+        "placeholder": "Email verification code"
+      },
+      "smsVerificationCode": {
+        "placeholder": "SMS verification code"
+      },
+      "emailVerificationMsg": "Enter the verification code received by the {{email}}",
+      "smsVerificationMsg": "Enter the verification code received by the {{mobileNumber}}",
+      "emailOtp": "OTP From Email",
+      "emailOtpMessage": "To complete your withdrawal you must obtain a one-time-password by email.",
+      "emailOtpSuccessMessage": "The OTP has been sent to your email, you will now be able to continue your withdrwal request.",
+      "emailOtpButton": "Request OTP",
+      "paymentMethod": "Select a Withdrawal Method",
+      "amount": {
+        "label": "Enter Your Withdrawal Amount"
+      },
+      "selectBank": {
+        "label": "Select bank"
+      },
+      "achmessage": "We've received your request & it is being processed, you should receive credit in your account as soon as we receive funds.",
+      "minWithdrawal": {
+        "label": "Min Withdrawal"
+      },
+      "maxWithdrawal": {
+        "label": "Max Withdrawal"
+      },
+      "percentFee": {
+        "label": "Percent Fee"
+      },
+      "fixedFee": {
+        "label": "Fixed Fee"
+      },
+      "minFee": {
+        "label": "Min Fee"
+      },
+      "maxFee": {
+        "label": "Max Fee"
+      }
+    },
+    "limitOrder": {
+      "rate": "Price",
+      "volume": "Amount",
+      "total": "Total",
+      "goodTillCancelled": "Good till Cancelled",
+      "immediateOrCancel": "Immediate or Cancel",
+      "fillOrKill": "Fill or Kill",
+      "postOnly": "Post Only",
+      "button": "$t(exchange.{{side}}) {{baseCurrency}}"
+    },
+    "marketOrder": {
+      "rate": "Price",
+      "marketPrice": "Market Price",
+      "volume": "Amount",
+      "goodTillCancelled": "Good till Cancelled",
+      "immediateOrCancel": "Immediate or Cancel",
+      "fillOrKill": "Fill or Kill",
+      "postOnly": "Post Only",
+      "button": "$t(exchange.{{side}}) {{baseCurrency}}"
+    },
+    "stopOrder": {
+      "stopPrice": "Stop",
+      "rate": "Limit",
+      "volume": "Amount",
+      "total": "Total",
+      "button": "$t(exchange.{{side}}) {{baseCurrency}}",
+      "stopLimit": "Stop Limit",
+      "stopMarket": "Stop Market",
+      "trailingStop": "Trailing Stop Market",
+      "invalidOrderSide": "Order side is not available for current order type.",
+      "trail": "Trail",
+      "absolute": "Absolute Trailing Value",
+      "percentage": "Trailing Value Percentage"
+    },
+    "postOffer": {
+      "iWantToSell": "I want to sell",
+      "iWantToBuy": "I want to buy",
+      "buy": "Buy",
+      "sell": "Sell",
+      "min": "mins",
+      "asset": "Asset",
+      "withCash": "With Cash",
+      "yourPrice": "Your Price",
+      "lowestOrderPrice": "Lowest Order Price",
+      "highestOrderPrice": "Highest Order Price",
+      "priceType": "Price Type",
+      "fixed": "Fixed",
+      "floating": "Floating",
+      "floatingPriceMargin": "Floating Price Margin",
+      "pricingFormula": "Pricing formula",
+      "totalAmount": "Total Amount",
+      "available": "Available",
+      "orderLimit": "Order Limit",
+      "paymentMethod": "Payment Method",
+      "addNewMethod": "Add New Method",
+      "paymentTimeLimit":"Payment Time Limit",
+      "remarks": {
+        "label": "Remarks (Optional)",
+        "placeholder": "Please do not include any cryto-related words, such as crypto, P2P, C2C, BTC, USDT, ETH etc."
+      },
+      "autoReply": {
+        "label": "Auto Reply (Optional)",
+        "placeholder": "Auto reply message will be sent to the counterparty once the order is created."
+      },
+      "counterpartyConditions": "Counterparty Conditions",
+      "completedKYC": "Completed KYC",
+      "registered": "Registered",
+      "daysAgo": "days(s) ago",
+      "holdingMoreThan": "Holdings more than",
+      "status": "Status",
+      "onlineRightNow": "Online right now",
+      "offlineManuallyLater": "Offline, manually later",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "confirmToPost": "Confirm to Post",
+      "confirmToPostWarning": "After publishing the $t(values.{{Side}}) Post, the trading assets will be frozen.",
+      "totalTradingAmount": "Total Trading Amount",
+      "type": "Type",
+      "currency": "Currency",
+      "reservedFee": "Reserved Fee",
+      "notCompletedKYC": "Not Completed KYC"
+    },
+    "coinBalance": "You have: ",
+    "estimatedFee": "Estimated Fee: "
+  },
+  "tables": {
+    "toolTips": {
+      "pageSize": "Number of rows to display",
+      "export": "Exports the data currently visible in the table.",
+      "exportDisabled": "There is no data available to export."
+    },
+    "convertFunds": {
+      "checkBoxLabel": "Convert",
+      "selectChoices": "Select Choices",
+      "coin": "Coin",
+      "availableBalance": "Available Balance",
+      "btcValue": "BTC Value",
+      "extValue": "Approx. {{token}} Value",
+      "noCurrencies": "You do not have any Dust to convert at the moment.",
+      "button": "Exchange"
+    },
+    "coinTracker": {
+      "favorites": "Favorites",
+      "pair": "Pair",
+      "price": "Price",
+      "change": "Change (24hr)",
+      "volume": "Volume (24hr)",
+      "24hHigh": "High (24hr)",
+      "24hLow": "Low (24hr)"
+    },
+    "openOrdersTable": {
+      "date": "Date",
+      "pair": "Pair",
+      "type": "Type",
+      "side": "Side",
+      "orderSide": "$t(tables.openOrdersTable.{{side}})",
+      "Buy": "Buy",
+      "Sell": "Sell",
+      "price": "Price",
+      "pending": "Pending",
+      "volume": "Total",
+      "action": "Action",
+      "stopprice": "Stop Price"
+    },
+    "tradeHistory": {
+      "date": "Date",
+      "pair": "Pair",
+      "type": "Type",
+      "side": "Side",
+      "orderSide": "$t(tables.tradeHistory.{{side}})",
+      "BUY": "Buy",
+      "SELL": "Sell",
+      "price": "Price",
+      "volume": "Volume",
+      "amount": "Amount",
+      "fee": "Fee",
+      "status": "Status",
+      "statusPending": "Pending",
+      "statusCancelled": "Cancelled",
+      "statusPartial": "Partially Filled",
+      "statusFilled": "Filled",
+      "orderId": "Order ID",
+      "mOrders": "Completed Trades",
+      "averagePrice": "Average Price",
+      "value": "Executed Value",
+      "size": "Size",
+      "sizeToolTip": "Filled Size / Total Size",
+      "stopprice": "Stop Price",
+      "statusFilledCancelled": "Filled & Cancelled"
+    },
+    "loginHistory": {
+      "startedOn": "Started On",
+      "ipAddress": "IP Address",
+      "os": "Operating System",
+      "browser": "Browser",
+      "location": "Location"
+    },
+    "referrals": {
+      "userId": "User ID",
+      "joinedOn": "Join Date",
+      "email": "Email"
+    },
+    "commission": {
+      "credit": "Credit",
+      "dot": "Date of Transaction"
+    },
+    "apiKeys": {
+      "key": "Key",
+      "type": "Type",
+      "actions": "Actions",
+      "confirmDeleteKey": "Are you sure you want to delete this key?"
+    },
+    "feeDiscount": {
+      "tier": "Tier",
+      "holdings": "Holdings",
+      "discount": "Discount"
+    },
+    "walletOverview": {
+      "currency": "Currency",
+      "balance": "Balance",
+      "inOrders": "In Orders",
+      "total": "Total",
+      "actions": "Actions",
+      "lowBalances": "Hide low balances?",
+      "hideBalances": "Hide balances?",
+      "trade": "Trade",
+      "currencyNote": {
+        "TEST": "This is a test note for TEST currency."
+      }
+    },
+    "derivativesOverview": {
+      "currency": "Currency",
+      "balance": "Balance",
+      "actions": "Actions",
+      "lowBalances": "Hide low balances?",
+      "hideBalances": "Hide balances?",
+      "toDerivatives": "To Derivatives"
+    },
+    "NDWalletOverview": {
+      "currency": "Currency",
+      "tradingBalance": "Trading Balance",
+      "tradingFrozenBalance": "Trading Frozen Balance",
+      "fundingBalance": "Funding Balance",
+      "fundingFrozenBalance": "Funding Frozen Balance",
+      "actions": "Actions",
+      "lowBalances": "Hide low balances?",
+      "hideBalances": "Hide balances?"
+    },
+    "depositHistory": {
+      "depositType": "Deposit Type",
+      "depositAddress": "Deposit Address",
+      "depositAmount": "Deposit Amount",
+      "depositReqDate": "Requested",
+      "depositConfirmDate": "Deposited",
+      "requestDate": "Requested",
+      "approvedDate": "Deposited",
+      "rejectReason": "Reject Reason",
+      "requestAmount": "Deposit Amount",
+      "transactionID": "Transaction ID",
+      "txnHash": "Transaction Hash",
+      "currentTxnCount": "Transaction Count",
+      "requiredTxnCount": "Required Transaction Count",
+      "explorerURL": "Block Explorer URL",
+      "type": "Deposit Type",
+      "status": "Status",
+      "comments": "Comments",
+      "noDepositHistory": "You have no deposit history.",
+      "internalTransfer": "Internal Transfer",
+      "delete": "Delete",
+      "pending": "Pending",
+      "rejected": "Rejected",
+      "accepted": "Accepted",
+      "cancelled": "Cancelled",
+      "processed": "Processed",
+      "completed": "Completed",
+      "bank": "Bank",
+      "card": "Card",
+      "ach": "ACH",
+      "crypto": "Crypto"
+    },
+    "withdrawalHistory": {
+      "withdrawalReqDate": "Requested",
+      "withdrawalConfirmDate": "Processed",
+      "rejectReason": "Reject Reason",
+      "withdrawalAmount": "Withdrawal Amount",
+      "withdrawalAddress": "Withdrawal Address",
+      "withdrawalStatus": "Status",
+      "txnHash": "Transaction ID",
+      "address": "Address",
+      "explorerURL": "Block Explorer URL",
+      "noWithdrawalHistory": "You have no withdrawal history.",
+      "withdrawalType": "Withdrawal Type",
+      "internalTransfer": "Internal Transfer",
+      "type": "Type",
+      "withdrawal_Fee": "Withdrawal Fee",
+      "accountNumber": "Account Number",
+      "beneficiaryName": "Beneficiary Name",
+      "bankName": "Bank Name",
+      "bankRoutingCode": "Bank Routing Code",
+      "swiftCode": "Swift Code",
+      "delete": "Delete",
+      "pending": "Pending",
+      "rejected": "Rejected",
+      "accepted": "Accepted",
+      "cancelled": "Cancelled",
+      "processed": "Processed",
+      "completed": "Completed",
+      "bank": "Bank",
+      "ach": "ACH",
+      "crypto": "Crypto"
+    },
+    "currenciesTable": {
+      "rank": "Rank",
+      "name": "Name",
+      "price": "Price",
+      "marketCap": "Market Cap",
+      "circulatingSupply": "Circulating Supply",
+      "change24h": "Change (24h)"
+    },
+    "instaTradeHistory": {
+      "date": "Date",
+      "purchased": "Amount Purchased",
+      "price": "Price",
+      "paymentAmount": "Amount Spent",
+      "status": "Status",
+      "complete": "Complete",
+      "pendingOrCancelled": "Pending or Cancelled",
+      "rate": "Price w/ Fees"
+    },
+    "fees": {
+      "tradingPair": "Trading Pair",
+      "makerFee": "Maker Fee",
+      "takerFee": "Taker Fee",
+      "tradingFeesTitle": "Exchange Trading Fees",
+      "withdrawalFeesTitle": "Deposit & Withdrawal Fees",
+      "currency": "Currency",
+      "minWithdrawal": "Min Withdrawal",
+      "depositFee": "Deposit Fee",
+      "withdrawalFee": "Withdrawal Fee",
+      "free": "Free"
+    },
+    "tradingDiscount": {
+      "tierHeading": "Tier",
+      "tier": "Tier {{tier}}",
+      "tradedVolumeLimit": "Trade Volume {{currency}}",
+      "discount": "Discount"
+    },
+    "tradingRules": {
+      "title": "Trading Rules",
+      "tradingPair": "Pair",
+      "minTradeAmount": "Min Trade Amount (Size)",
+      "minOrderValue": "Min Order Size",
+      "minTickSize": "Min Price Movement"
+    },
+    "assetStatus": {
+      "name": "Name",
+      "ticker": "Ticker",
+      "assetType": "Type",
+      "type": "Asset Type",
+      "deposits": "Deposits",
+      "withdrawals": "Withdrawals",
+      "trade": "Trade",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "walletTypes": {
+        "Fiat-Manual": "Fiat",
+        "Fiat-PG": "Fiat",
+        "SecurityToken": "Security Token",
+        "NeblioToken": "Neblio Token"
+      }
+    },
+    "ip-whitelisting": {
+      "addedOn": "Date",
+      "cidr": "IP Address",
+      "type": "Type",
+      "delete": "Delete",
+      "noIPWhitelisted": "You have no IP Whitelisted."
+    },
+    "deviceWhitelisting": {
+      "addedOn": "Date",
+      "device": "Device",
+      "browser": "Browser",
+      "ip": "IP",
+      "os": "OS",
+      "delete": "Delete",
+      "noDeviceWhitelisted": "You have no Whitelisted Devices.",
+      "this": "This Device"
+    },
+    "offers": {
+      "advertisers": "Advertisers",
+      "price": "Price",
+      "limit/available": "Limit/Available",
+      "payment": "Payment",
+      "trade": "Trade",
+      "orders": "orders",
+      "completion": "completion",
+      "available": "Available",
+      "limit": "Limit",
+      "buy": "Buy",
+      "sell": "Sell",
+      "paymentTimeLimit": "Payment Time Limit",
+      "paymentMethod": "Payment Method",
+      "termsAndConditions": "Terms and conditions",
+      "tACWarning": "Make sure you upload your proof of payment after making payment to allow me to be asking you of proof",
+      "iWantToPay": "I want to pay",
+      "iWillReceive": "I will receive",
+      "cancel": "Cancel",
+      "all": "All",
+      "tradingRequirements": {
+        "title": "Trading Requirements",
+        "info": "P2P Trading is not available in the following countries: United States, Republic of Belarus, The Democratic Republic of the Congo, Cuba, Iraq, Iran, North Korea, Sudan, Syria, Zimbabwe.",
+        "enable": "Enable",
+        "completePhoneVerification": "Complete Phone Verification",
+        "completeKYCVerification": "Complete KYC Verification",
+        "profileName": "Profile Name",
+        "add": "Add"
+      }
+    },
+    "myOffers": {
+      "postId": "Post Number",
+      "type": "Type",
+      "asset&Fiat": "Asset/Fiat",
+      "totalAmount": "Total Amount",
+      "completedTradeQTY": "Completed Trade QTY",
+      "limit": "Limit",
+      "price": "Price",
+      "exchangeRate": "Exchange Rate",
+      "paymentMethod": "Payment Method",
+      "lastUpdated": "Last Updated",
+      "createTime": "Create Time",
+      "status": "Status",
+      "actions": "Actions",
+      "published": "Published",
+      "unpublished": "UnPublished",
+      "cancelled": "Cancelled",
+      "completed": "Completed",
+      "confirmClose": "Confirm closing the Offer?",
+      "confirmCloseMSG": "Once closed, you can not edit this offer",
+      "cancel": "Cancel",
+      "close": "Close",
+      "edit": "Edit",
+      "confirmUnPublishingtheOffer?": "Confirm UnPublishing the Offer?",
+      "confirmPublishingtheOffer?": "Confirm Publishing the Offer?",
+      "publish": "Publish",
+      "unpublish": "UnPublish",
+      "closeMyOffer": "Close My Offer",
+      "publishMyOffer": "Publish My Offer",
+      "unPublishMyOffer": "UnPublish My Offer"
+    },
+    "paymentSettings": {
+      "pageTitle": "My Payment Methods",
+      "currency": "Currency",
+      "methodName": "Method name",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "warning": "Warning",
+      "confirmDelete": "Confirm deleting payment method?",
+      "myPaymentMethodsNotFound": "Payment method not found"
+    },
+    "myOrders": {
+      "asset/fiat": "Asset/Fiat",
+      "side": "Side",
+      "size": "Size",
+      "price": "Price",
+      "paymentMethod": "Payment Method",
+      "youPaid": "You Paid",
+      "youReceived": "You Received",
+      "cancelled": "Cancelled",
+      "view": "View",
+      "buy": "Buy",
+      "sell": "Sell"
+    },
+    "p2pWallet": {
+      "currency": "Currency",
+      "balanceInOrder": "In Order"
+    }
+  },
+  "exchange": {
+    "depthChart": {
+      "title": "Depth Chart",
+      "price": "Price",
+      "volume": "Volume",
+      "totalVolume": "Total Volume"
+    },
+    "bidTotal": "Bid Total",
+    "askTotal": "Ask Total",
+    "chart": "TradingView",
+    "openOrders": "Open Orders",
+    "orderHistory": "Order History",
+    "portfolio": "Portfolio",
+    "orderBook": "Order Book",
+    "tradeHistory": "Trades",
+    "tradeHistoryTab": "Trade History",
+    "price": "Price",
+    "size": "Size",
+    "total": "Total",
+    "time": "Time",
+    "minNumber": "The number must be greater than 0.00000001",
+    "limitOrder": "Limit",
+    "marketOrder": "Market",
+    "stopOrder": "Stop",
+    "BUY": "Buy",
+    "SELL": "Sell",
+    "avgPrice": "Avg. Price",
+    "baseTotal": "Total {{baseCurrency}}",
+    "quoteTotal": "Total {{quoteCurrency}}"
+  },
+  "account": {
+    "accountVerification": {
+      "startKyc": "Start KYC",
+      "kycRedirectWarning": "You will now be redirected to our third party processing services relating to KYC verification, which is a separate platform owned by a third party.",
+      "requiresKyc": "You must be KYC verified to access this feature.",
+      "rejected": "Your submitted information was rejected, please try again.",
+      "approved": "Your account has been successfully verified!",
+      "pending": "Your information is currently under review.",
+      "title": "Verify Your Account",
+      "formTitle": "Submit Your 'Know Your Customer' (KYC) Details",
+      "rejectionReason": "Rejection Reason",
+      "requestInfo": "Request Info",
+      "statusRequestInfo": "Request Info",
+      "statusNew": "Verify Account",
+      "statusRejected": "KYC Rejected",
+      "statusPending": "KYC Pending",
+      "statusApproved": "Account Verified",
+      "kycLevel": "KYC Level {{level}}",
+      "congratulations": "Congratulations!",
+      "successButton": "Go to ProTrade",
+      "tryAgain": "Try Again",
+      "KycApproved": "Approved",
+      "verificationMsg": "Your Account Identity Verification is Level {{level}}",
+      "tips": {
+        "headerFailed": "Verification Failed, Please Try Again!",
+        "header": "Important! Read below before submitting your information:",
+        "errorMessage": "If you are seeing this message it means that your previous application to verify your account has been declined. This can be for various reasons, please reference the instructions again below.",
+        "vpn": "Switch off your VPN if you are using one so that we can match your location with your documents submitted. VPN access to the platform is generally not advised.",
+        "public": "Public wi-fi change regularly which can affect your verification submission, we advise you complete your verification when you are at home or in your office.",
+        "completed": "Once you have completed verification you will receive an automated email, if you have not received this check your spam folder and email history. If our emails are reaching your spam folder you can click the link at the base of the email to add our emails to your safe senders list."
+      },
+      "selfie": {
+        "why": "Why do we ask for this?",
+        "message": "We match the photograph of yourself (selfie) with the image of you on the documents uploaded to ensure that there is a facial match in your submissions. Unfortunately uploading a ‘selfie’ is a mandatory part of the submission process and applications for verification that do not include a clear and good quality selfie will be rejected."
+      }
+    },
+    "pageTitle": "Account",
+    "overview": {
+      "link": "Overview",
+      "cellular": "Cellular: ",
+      "joinedOn": "Joined On: ",
+      "loginHistory": "Recent Login History"
+    },
+    "security": {
+      "link": "Security",
+      "boxHeading": "{{exchangeName}} encourages the use of two-factor authentication",
+      "boxParagraphFirst": "Two-factor authentication (2fa) greatly increases security by requiring both your password and another form of authentication. {{exchangeName}} implements 2fa utilizing <1>$t(multiFactorAuth.name)</1>. To enable this feature simply download $t(multiFactorAuth.name) on your mobile device and scan the QRCode.",
+      "boxParagraphSecond": "Once you have linked the Authenticator with {{exchangeName}}, enter the $t(multiFactorAuth.length) digit code provided.",
+      "twoFactorText": "Two-Factor Authentication ",
+      "twoFactorEnabled": "( Enabled )",
+      "twoFactorDisabled": "( Disabled )",
+      "secretKey": "Secret Key",
+      "secretKeyHelp": "Please backup your secret key. Resetting 2FA requires opening a support ticket and may require up to 7 days to address.",
+      "secretKeyBackupSpan": "Please back up your secret key.",
+      "secretKeyBackupParagraph": "Resetting your two-factor authentication requires opening a support ticket and may take up to 7 days to address.",
+      "authFormTitleEnabled": "Enable $t(multiFactorAuth.name)",
+      "authFormTitleDisabled": "Disable $t(multiFactorAuth.name)"
+    },
+    "verification": {
+      "link": "Account Verification"
+    },
+    "phoneVerification": {
+      "link": "Phone Verification",
+      "selectCountry": "Select Country",
+      "mobileNumber": "Mobile Number",
+      "requestOTP": "Request OTP",
+      "smsVerificationMsg": "Enter the verification code received by the {{mobileNumber}}",
+      "mobileOTP": "Mobile OTP",
+      "enable": "Enable",
+      "country": "Country",
+      "disable": "Disable",
+      "submit": "Submit",
+      "countryRequired": "Country field can'nt be empty",
+      "mobileNumberRequired": "Mobile Number field can'nt be empty"
+    },
+    "ip-whitelisting": {
+      "link": "IP Whitelisting",
+      "warning": "Warning!",
+      "warningMessage": "This change will invalidate all your previous sessions including current session and you will be immediately signed out. Please ensure that you have whitelisted your current IP in order to not get locked out. We urge you to use this feature with extra caution, you may lock out completely if you do not have a static IP from your ISP.",
+      "warningMessageOptions": "Do you want to continue with the change?",
+      "yes": "Yes",
+      "no": "No",
+      "submit": "Submit",
+      "addIPButton": "Add IP Address",
+      "headingIPAddress": "IP Addresses",
+      "inputLabel": "IP Address",
+      "inputIPvalidation": "Invalid IP"
+    },
+    "affiliates": {
+      "60d": "Last 60 Days",
+      "90d": "Last 90 Days",
+      "120d": "Last 120 Days",
+      "allTime": "All Time",
+      "link": "Referrals",
+      "title": "Referrals",
+      "myRefId": "My Referral ID: ",
+      "referralLink": "Referral Link",
+      "referralCode": "Referral Code",
+      "copyLink": "Click to copy to clipboard.",
+      "tiers": "Referral Tiers",
+      "rLevel1": "Tier 1",
+      "rLevel2": "Tier 2",
+      "rLevel3": "Tier 3",
+      "referrals": "Referrals",
+      "earnings": "Referral Earnings",
+      "feeShare": "Fee Share",
+      "commission": "Commission History",
+      "currency": "Currency",
+      "usersReferred": "Users Referred",
+      "shareLink": "Share your referral link or code with friends to earn a percentage of their trading fees on the platform.",
+      "multipleTiers": "When your referrals invite other users to the platform you will earn a percentage of their trading fees as well!"
+    },
+    "apiKeys": {
+      "link": "Api Keys",
+      "title": "Api Keys",
+      "mustEnableGauth": "You must enable $t(multiFactorAuth.name) to use this feature",
+      "message": "Use this page to manage your API keys to interact with the exchange.",
+      "message2": "When creating an API key be sure to store the private key somewhere safe, you will only see it once.",
+      "success": {
+        "public": "Public Key",
+        "private": "Private Key",
+        "message": "Save the private key somewhere safe, you will only see it once"
+      }
+    },
+    "deviceWhitelisting": {
+      "link": "Whitelisted Devices",
+      "title": "Whitelisted Devices",
+      "warning": "Warning!",
+      "warningMessage": "This change will invalidate all your previous sessions including current session and you will be immediately signed out. Please ensure that you have whitelisted your current IP in order to not get locked out. We urge you to use this feature with extra caution, you may lock out completely if you do not have a static IP from your ISP.",
+      "warningMessageOptions": "Do you want to continue with the change?",
+      "yes": "Yes",
+      "no": "No",
+      "submit": "Submit"
+    },
+    "feeDiscount": {
+      "link": "Exchange Token",
+      "title": "Exchange Token Fee Discount",
+      "enroll": "Enroll",
+      "disenroll": "Disenroll",
+      "details": "When you enroll into pay with {{exchangeToken}} program, instead of paying trading fees in base or quote currency, you will be paying an equivalent amount from your {{exchangeToken}} balance.",
+      "payInToken": "Pay Trading Fees with {{exchangeToken}}",
+      "discountDetails": "Your trading fee discount will be determined by the amount of {{exchangeToken}} that is currently held in your account."
+    },
+    "tradingDiscount": {
+      "link": "Volume Discount",
+      "title": "Trading Volume Discount",
+      "tier": "Tier {{tier}}",
+      "discountValue": "{{percent}}% Discount",
+      "description": "Every day your trading volume from the last 30 days are evalulated. You will recieve a trading fee discount based on your past trading volume."
+    },
+    "changePassword": {
+      "link": "Change Password"
+    },
+    "priceAlerts": {
+      "heading": "Price Alerts",
+      "subHeading": "Subscribe to the price change alerts, whenever price for an asset moves {{priceChangePercentage}}% in any 24 hours, we will notify you.",
+      "unsubscribe": "Unsubscribe",
+      "subscribe": "Subscribe"
+    }
+  },
+  "derivatives": {
+    "pageTitle": "Margin Account Overview",
+    "overview": {
+      "link": "Margin Account Overview",
+      "currency": "Currency",
+      "transferTo": "Transfer to",
+      "balance": "Balance",
+      "spotbalance": "Spot balance",
+      "marginbalance": "Margin balance",
+      "amount": "Amount"
+    }
+  },
+  "NDWallet": {
+    "pageTitle": "ND Wallet",
+    "overview": {
+      "link": "ND Wallet Overview",
+      "currency": "Currency",
+      "transferTo": "Transfer to",
+      "moveTo": "Move to",
+      "funding": "Funding",
+      "trading": "Trading",
+      "ndWallet": "ND Wallet",
+      "mainWallet": "Main Wallet",
+      "balance": "Balance",
+      "amount": "Amount",
+      "ND Walletbalance": "ND Wallet balance",
+      "Main Walletbalance": "Main Wallet balance",
+      "Tradingbalance": "Trading balance",
+      "Fundingbalance": "Funding balance"
+    },
+    "order-history": {
+      "link": "Order History"
+    }
+  },
+  "orders": {
+    "pageTitle": "Orders",
+    "openOrders": {
+      "link": "Open Orders"
+    },
+    "tradeHistory": {
+      "link": "Trade History"
+    },
+    "orderHistory": {
+      "link": "Order History"
+    }
+  },
+  "wallet": {
+    "pageTitle": "Wallet",
+    "overview": {
+      "link": "Overview",
+      "portfolio": "Your Portfolio"
+    },
+    "deposits": {
+      "link": "Deposits",
+      "depositAddress": "Deposit Address:",
+      "destinationTag": "Destination Tag:",
+      "disclaimerFirst": "Do not use this address to deposit any other asset than {{currency}}. Deposits of other assets to this address may result in loss of funds.",
+      "disclaimerSecond": "This is your only address for depositing {{currency}}. Multiple deposits can be processed simultaneously.",
+      "disclaimerThird": "{{currencyName}} will be deposited into your account once the transaction reaches {{confirmations}} confirmations.",
+      "currencyDisclaimer": {
+        "TEST": "This is an example extra disclaimer for the deposit area."
+      },
+      "history": "History",
+      "button": "Generate Deposit Address",
+      "bankName": "Bank Name",
+      "beneficiaryName": "Beneficiary Name",
+      "bankRoutingCode": "Routing Code",
+      "accountNumber": "Account Number",
+      "swiftCode": "Swift Code",
+      "bankLocation": "Location",
+      "bankDetails": "Bank Transfer Details",
+      "formTitle": "Upload Deposit Details"
+    },
+    "withdrawals": {
+      "link": "Withdrawals",
+      "withdrawAll": "Withdraw All",
+      "collateralAmount":"Collateral Amount",
+      "availableBalance": "Available to Withdraw",
+      "totalBalance": "Total Balance",
+      "warning": "Do not withdraw directly to an ICO or crowdfunding address, you will not receive tokens from these sales.",
+      "fiatWarning": "Beneficiary name should match the name on your account.",
+      "inOrders": "Balance In Orders",
+      "minWithdrawal": "Min Withdrawal: ",
+      "addressLabel": "Address",
+      "amountLabel": "Amount",
+      "balanceAfter": "Balance after Withdrawal",
+      "willReceive": "You will Receive",
+      "serviceCharge": "Service Charge",
+      "history": "History",
+      "fee": "Fee",
+      "withdrawalAddress": "Withdrawal Address",
+      "withdrawalTag": "Withdrawal Tag",
+      "withdrawalAmount": "Withdrawal Amount",
+      "withdrawalLimit": "Withdrawal Limit",
+      "withdrawalLimitStatus": "Withdrawal Limit Status"
+ 
+    },
+    "borrow": {
+      "link": "Borrow",
+      "borrow": "Borrow",
+      "payment": "Payment",
+      "paymentHistory": "Payment History",
+      "Collateral": "Collateral Balance",
+      "rePaymentAsset": "Select Repayment Asset",
+      "collateralAsset": "Collateral Asset",
+      "collateralAmount": "Collateral Amount",
+      "totalBalance": "Total Balance",
+      "confirmPayment": "Confirm Payment",
+      "confirmBorrowAssetRequest": "Confirm Borrow Request",
+      "lTVratio": "lTVratio",
+      "AddCollateral": "Add Collateral",
+      "ReleaseCollateral": "Release Collateral",
+      "borrowIntrestRate": "Borrow Intrest Rate",
+      "maxBorrowLimit": "Max Borrow Limit",
+      "rePaymentPeriodInDays": "RePayment interval",
+      "rePayDeadlineInDays": "RePayment Deadline In Days",
+      "IVeReadAndAcceptTheTermsOfService": "I've read and accept the terms of service",
+      "TheTermsOfService": "The terms of service"
+    },
+    "convertFunds": {
+      "link": "Convert Dust to {{exchangeToken}}",
+      "message": "You have selected <1>{{numCurrencies}}</1> coins which can be converted to <2>{{numFunds}}</2> {{token}}.",
+      "modalMessage": "Successfully converted to exchange token."
+    },
+    "redirect": {
+      "withdrawalsError": "There are currently no currencies enabled for withdrawal.",
+      "depositsError": "There are currently no currencies enabled for deposit."
+    },
+    "creditCard": {
+      "link": "Buy With Credit Card"
+    },
+    "autoSell": {
+      "link": "Auto Sell",
+      "description": "When Auto Sell is enabled on a '$t(wallet.autoSell.baseCurrency)', any deposit made for that currency will automatically execute a trade to the selected ''$t(wallet.autoSell.sellTo)'.",
+      "baseCurrency": "Deposit Currency",
+      "sellTo": "Sell for Currency",
+      "disabled": "Auto Sell Disabled",
+      "success": "Auto Sell preference saved.",
+      "error": "Saving preference has failed, please try again later."
+    },
+    "instaTrade": {
+      "link": "Insta Trades"
+    },
+    "generic": {
+      "all": "All Currencies",
+      "allCrypto": "All Cryptocurrencies",
+      "allFiat": "All Fiat Currencies"
+    },
+    "addressBook": {
+      "link": "Address Book",
+      "label": "Label",
+      "currency": "Currency",
+      "newAddress": "Address",
+      "pluralAddresses": "Addresses",
+      "addAddress": "Add Address",
+      "tag": "Tag/Memo",
+      "action": "Action",
+      "description": "The address book is used to save addresses that will be used for withdrawals. New addresses can be added to the addres book by filling out the 'Add Address' form.",
+      "whitelistDescription": "When the whitelisting feature is enabled, you will only be able to make withdrawals to addresses already saved in your address book.",
+      "noAddresses": "There are currently no addresses saved.",
+      "currencyAddress": "{{currency}} Address",
+      "selectAddress": "You may select an address from your address book to fill in relevant fields in the form.",
+      "selectAddressWhitelist": "Since address whitelisting is enabled you must select an address from the address book. If you have no saved addresses for a currency you may add an address by clicking on 'Add Address'.",
+      "otpCode": "OTP Code",
+      "requestOtp": "Request Code",
+      "otpMessage": "You must request an OTP code to complete the form.",
+      "otpSuccessMessage": "The OTP message has been sent to your primary contact method."
+    },
+    "banks": {
+      "link": "Banks",
+      "bankAccounts": "Bank Accounts",
+      "addBanks": "Add Banks",
+      "action": "Action",
+      "description": "Save your bank account details here.",
+      "noBankAccounts": "There are currently no bank accounts saved.",
+      "bankName": "Bank Name",
+      "branchName": "Branch Name",
+      "branchCity": "Branch City",
+      "branchProvince": "Branch Province",
+      "branchCountry": "Branch Country",
+      "accountCurrency": "Account Currency",
+      "accountType": "Account Type",
+      "accountNumber": "Account Number",
+      "bankRoutingCode": "Bank Routing Code",
+      "branchRoutingCode": "Branch Routing Code",
+      "swiftCode": "Swift Code",
+      "otpCode": "OTP Code",
+      "requestOtp": "Request Code",
+      "otpMessage": "You must request an OTP code to complete the form.",
+      "otpSuccessMessage": "The OTP message has been sent to your primary contact method."
+    }
+  },
+  "instaTrade": {
+    "title": "InstaTrade",
+    "purchaseCurrency": "Currency",
+    "paymentMethod": "Payment Method",
+    "selectPair": "Please select your Currency and Payment Method",
+    "min": "Min",
+    "max": "Max",
+    "fee": "Fee",
+    "total": "Total",
+    "subTotal": "Subtotal",
+    "balance": "Balance",
+    "receive": "Receive Amount",
+    "payment": "Payment Amount",
+    "purchasing": "Purchasing {{currency}}",
+    "reserve": "Amount Available",
+    "tradeHistory": "Trade History",
+    "amount": "Amount",
+    "buy": "Buy {{currency}}",
+    "estimate": "1 {{currency}} roughly equals",
+    "spendBetween": "Spend between {{min}} and {{max}} {{currency}}",
+    "feeText": "This amount is an estimate after fees are collected.",
+    "error": {
+      "heading": "InstaTrade Failed",
+      "message": "Your InstaTrade transaction has failed to complete. Please try again"
+    },
+    "success": {
+      "heading": "InstaTrade Completed",
+      "message": "Your InstaTrade transaction has been completed successfully."
+    },
+    "return": "Return to InstaTrade",
+    "youHave": "You have:",
+    "history": "View your InstaTrade order history <1>here</1>.",
+    "historyRequest": "View InstaTrade History",
+    "timeLeft": "Time Left",
+    "sec": "sec"
+  },
+  "p2p": {
+    "pageTitle": "P2P",
+    "offers": {
+      "notNow": "Not now",
+      "toRefresh": "to refresh",
+      "allPayments": "All Payments",
+      "buy":"Buy",
+      "sell":"Sell",
+      "amount": {
+        "label": "Amount",
+        "placeholder": "Enter amount"
+      },
+      "search": "Search",
+      "fiat": "Fiat",
+      "payment": "Payment",
+      "updateProfileHeading": "Update profile",
+      "name": "Name"
+    },
+    "myOffers": {
+      "pageTitle": "My Offers",
+      "assetType": "Asset Type",
+      "type": "Type",
+      "status": "Status",
+      "dateFrom": "Date From",
+      "dateTo": "Date To",
+      "postNewOffer": "Post New Offer",
+      "allAssets": "All assets",
+      "allStatus": "All status",
+      "buy": "Buy",
+      "sell": "Sell",
+      "published": "Published",
+      "unPublished": "UnPublished",
+      "cancelled": "Cancelled",
+      "completed": "Completed"
+    },
+    "paymentSettings": {
+      "pageTitle": "Add Payment Method",
+      "fiat": "Fiat",
+      "paymentMethod": "Payment Method",
+      "formErrorMsg": "Incorrect Input.",
+      "submit": "Submit",
+      "gAuthCode": {
+        "label": "GAuth Code",
+        "placeholder": "GAuth Code"
+      },
+      "Bank_Name": {
+        "label": "Bank Name",
+        "placeholder": "Bank Name"
+      },
+      "Bank_Account_No": {
+        "label": "Bank Account No",
+        "placeholder": "Bank Account No"
+      },
+      "Bank_Routing_Code": {
+        "label": "Bank Routing Code",
+        "placeholder": "Bank Routing Code"
+      },
+      "Bank_Customer_Email": {
+        "label": "Bank Customer Email",
+        "placeholder": "Bank Customer Email"
+      },
+      "Mobile_Number": {
+        "label": "Mobile Number",
+        "placeholder": "Mobile Number"
+      },
+      "WeChat_Id": {
+        "label": "WeChat Id",
+        "placeholder": "WeChat Id"
+      },
+      "Paypal_Email": {
+        "label": "Paypal Email",
+        "placeholder": "Paypal Email"
+      },
+      "AccountNumber": {
+        "label": "Account Number",
+        "placeholder": "Account Number"
+      },
+      "RoutingCode": {
+        "label": "Routing Code",
+        "placeholder": "Routing Code"
+      },
+      "BankName": {
+        "label": "Bank Name",
+        "placeholder": "Bank Name"
+      }
+    },
+    "myOrders": {
+      "pageTitle": "My Orders"
+    },
+    "orderDetails": {
+      "buyer": "Buy $t(OrderData.{{BaseCurrency}})",
+      "seller": "Sell $t(OrderData.{{BaseCurrency}})",
+      "createdTime": "Created time",
+      "orderNumber": "Order number",
+      "amount": "Amount",
+      "price": "Price",
+      "quantity": "Quantity",
+      "fee": "Fee",
+      "youPaid": "You Paid",
+      "youReceived": "You Received",
+      "orderCancelled": "Order cancelled",
+      "youAppealed": "You Appealed",
+      "appealStatus": "Appeal Status",
+      "buyInstruction1": "Please confirm that you have successfully transferred the money to the seller through the following payment method.",
+      "buyWarning1": "The following is the sellers' payment info. please make sure the money is transferred from an account you own. matching you verified name. Money will NOT be transferred automatically by the platform.",
+      "paymentToBeMade": "Payment to be made",
+      "buyInstruction2": "Please make a payment within $t(OrderData.{{PaymentTimeLimit}}) mins, Otherwise, the order will be cancelled.",
+      "transferredNext": "Transferred, Next",
+      "buyInstruction3": "Please confirm that payment has been made to seller, Malicious clicks will lead to accound frozen.",
+      "buyWarning2": "WARNING! If you click on \"Transferred, next\" without making the payment (you need to transfer the money with the payment account, not on Modulus). Your account will potentially be suspended. The platform reserve the right to claim any damage caused.",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "paidToAccountBelow": "Paid to account below",
+      "appeal": "Appeal",
+      "beforeAppealing": "Before appealing",
+      "beforeAppealInstruction1": "You can upload proof of payment and account info in the chatbox to help both sides to verify the payment",
+      "beforeAppealInstruction2": "Please try to contact the counterparty if you have any problems",
+      "beforeAppealInstruction3": "If you cannot reach the buyer/seller, or reach an agreement with the other user, please file an appeal",
+      "appealWarning1": "Reason for appeal and proofs are visible to both parties and CS. Please avoid including any private or sensitive info",
+      "appealWarning2": "Baseless appeal request can result in banning of the account",
+      "reasonForAppeal": {
+        "label": "Reason for Appeal (Mandatory)",
+        "placeholder": "Please enter the reason for appeal"
+      },
+      "appealReasons": {
+        "reason1": "I have made a payment but the seller has not released the crypto.",
+        "reason2": "I paid extra money to the seller.",
+        "reason3": "I suspected the seller is scamming.",
+        "reason4": "Others"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Please provide as much detail as possible"
+      },
+      "uploadProof": {
+        "label": "Upload Proof (Mandatory)",
+        "placeholder": "Please provide as much detail as possible"
+      },
+      "phoneNumber": "Phone (Mandatory)",
+      "cancelOrder": "Cancel order",
+      "orderCompleted": "Order Completed",
+      "orderCancelReason": "Order Cancel Reason",
+      "appealResolvedOn": "Appeal Resolved on",
+      "appealResolvedOnFavour": "Appeal Resolved on $t(OrderData.Appeal.{{ResolutionFavoring}})'s favour",
+      "confirmRelease": "Confirm Release",
+      "confirmReleaseWarning": "ATTENTION! Please be sure to LOG IN THE RECEVING (e.g. Bank/ eWallet) ACCOUNT to confirm that the money has arrived in the \"Available Balance\"",
+      "phoneVerificationCode": {
+        "label": "Phone verification code",
+        "placeholder": "Phone verification code"
+      },
+      "getCode": "Get code",
+      "phoneInfo": "Enter the 6 digit code sent to $t(profile.{{mobileNumber}}).",
+      "checkConfirmMsg": "I confirm that the payment is successfully received with correct amount and sender information",
+      "pleaseConfirmPayment": "Please Confirm Payment",
+      "tips": {
+        "title": "Tips",
+        "tip1": "Please do not include any information about BTC, ETH, USDT, BNB and other digital asset names in the transfer notes to prevent payment from being intercepted or bank funds being frozen.",
+        "tip2": "Your payment will go directly to the seller's account. the digital assets sold by the seller during the transaction will be handled by platform.",
+        "tip3": "Please complete the payment within the specified time, and be sure to click \"Transferred, Next\", After the seller confirms the payment , the system will transfer the digital assets to your account.",
+        "tip4": "If the buyes cancels order 3 times a day, he/she will no longer be able to trade for the rest of the day.",
+        "tip5": "After 5 pm on weekdays or during non-working days, please limit each transaction within 50,000 CNY, otherwise it will be delayed."
+      },
+      "callTheNumber": "Call The Number",
+      "warningOnChatBox": "ATTENTION! Do not release crypto before confirming that money has arrived in your Bank account. DO NOT trust anyone that asjs you to release a crypto before payment.",
+      "messingBoxPlaceholder": "write a message...",
+      "cancelReasonPlaceholder": "Please enter the reason for cancellation",
+      "cancelReasonsHeading": "Why do you want to cancel the order?",
+      "cancelOrderTips":  {
+        "title": "Tips",
+        "tip1": "If you have made a payment to the seller, make sure do not cancel order.",
+        "tip2": "Canceling orders 3 time a day will prevent you from trading for the rest of the day."
+      },
+      "myPaymentMethod": "My Payment Method",
+      "paymentToBeMadeByBuyer": "Payment to be made by buyer",
+      "sellInstruction1": "Buyer has not paid, please wait patiently.",
+      "paymentConfirmHeading": "Please confirm you have received the payment",
+      "toBeReleased": "To be released",
+      "sellInstruction2": "Buyer has made a payment, please release the crypto within $t(OrderData.{{PaymentTimeLimit}}) mins.",
+      "cancelReason1": "I do not want to trade anymore",
+      "cancelReason2": "I do not meet the requirements of the advertiser's trading terms and condition",
+      "cancelReason3": "Seller is asking for extra fee",
+      "cancelReason4": "Problem with seller's payment method result in unsuccessful PaymentSettings",
+      "cancelReason5": "Other reasons",
+      "cancelAppeal": "Cancel the Appeal",
+      "open": "Open",
+      "closed": "Closed",
+      "appealcancelled": "Appeal Cancelled",
+      "appealCancelledOn": "Appeal Cancelled on"
+    },
+    "p2pWallet": {
+      "pageTitle": "P2P Wallet"
+    }
+  },
+  "socialTrade": {
+    "socialTrade": "Social Trading",
+    "myStrategies": "My Strategies",
+    "sharedStrategies": "Shared Strategies",
+    "subscribedStrategies": "Subscribed Strategies",
+    "createStrategy": "Create Strategy",
+    "edit": "Edit",
+    "subscribe": "Subscribe",
+    "unsubscribe": "Unsubscribe",
+    "log": "Log",
+    "backtest": "Backtest",
+    "strategyName": "Strategy Name",
+    "strategySide": "Side",
+    "description": "Description",
+    "baseCurrency": "Base Currency",
+    "quoteCurrency": "Quote Currency",
+    "tradePair": "Pair (Base/Quote currencies)",
+    "script": "Trade Script",
+    "accessType": "Access Type",
+    "save": "Save",
+    "start": "Start",
+    "stop": "Stop",
+    "delete": "Delete",
+    "launchState": "Execution",
+    "useBuySignal": "Use Buy Signal",
+    "useSellSignal": "Use Sell Signal",
+    "slipPct": "Slip Pct",
+    "tillDate": "Till Date",
+    "interval": "Interval",
+    "limit": "Limit",
+    "run": "Run",
+    "performance": "Performance",
+    "author": "Author",
+    "title": "Title",
+    "pair": "Pair",
+    "profit": "Profit",
+    "loss": "Loss",
+    "actions": "Actions",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "totalTrades": "Total Trades",
+    "averageTradesPerMonth": "Average Trades Per Month",
+    "profitableTrades": "Profitable Trades",
+    "losingTrades": "Losing Trades",
+    "totalProfit": "Total Profit",
+    "totalLoss": "Total Loss",
+    "percentProfit": "Percent Profit",
+    "largestProfit": "Largest Profit",
+    "largestLoss": "Largest Loss",
+    "maximumDrawdown": "Maximum Drawdown",
+    "compoundMonthlyROR": "Compound Monthly ROR",
+    "standardDeviation": "Standard Deviation",
+    "annualizedStandardDeviation": "Annualized Standard Deviation",
+    "downsideDeviation": "Downside Deviation",
+    "valueAddedMonthlyIndex": "Value Added Monthly Index",
+    "sharpeRatio": "Sharpe Ratio",
+    "annualizedSharpeRatio": "Annualized Sharpe Ratio",
+    "sortinoRatio": "Sortino Ratio",
+    "annualizedSortinoRatio": "Annualized Sortino Ratio",
+    "sterlingRatio": "Sterling Ratio",
+    "calmarRatio": "Calmar Ratio",
+    "riskToRewardRatio": "Risk To Reward Ratio",
+    "date": "Date",
+    "type": "Type",
+    "subscriptionType": "Subscription For",
+    "alertType": "Alert By",
+    "accountTradingPercentage": "Account Trading Percentage (0.1 - 15)",
+    "atpError": "The value must be in the range [0.1 .. 15.0].",
+    "autoTradeWarning": "Warning: auto-trading can be risky. Please use with caution.",
+    "backtestBaseFieldsRequired": "Please make sure that you have filled in the 'Base Currency' and 'Quote Currency' fields, as well as the 'Script' field.",
+    "strategySaved": "Saved!",
+    "link_trade_script_docs": "Documentation",
+    "error_invalid_atp": "Invalid Account Trading Percentage value.",
+    "error_invalid_atp_range": "Account Trading Percentage should be in range: ",
+    "error_script_field_required": "The 'Trade Script' field is required.",
+    "strategySides":{
+      "buy": "Buy",
+      "sell": "Sell"
+    },
+    "accessTypes": {
+      "public": "Public",
+      "private": "Private"
+    },
+    "subscriptionTypes": {
+      "alert": "Alert",
+      "autoTrade": "Auto Trade"
+    },
+    "alertTypes": {
+      "sms": "By Sms",
+      "email": "By Email",
+      "smsAndEmail": "By Sms & Email"
+    },
+    "launchStates": {
+      "inactive": "Inactive",
+      "active": "Active"
+    }
+  },
+  "settings": {
+    "theme": "Theme",
+    "language": "Language",
+    "fiat": "Fiat Estimation",
+    "title": "Settings",
+    "numberFormat": "Number Format",
+    "numberFormatOptions": {
+      "df": "Language Default",
+      "comma": "Comma as Decimal (1.234,56)",
+      "period": "Period as Decimal (1,234.56)"
+    }
+  },
+  "cookieConsent": {
+    "title": "{{exchangeName}} uses cookies.",
+    "description": "This website uses cookies to improve user experience.",
+    "more": "Cookie Policy"
+  },
+  "currencies": {
+    "price": "Price",
+    "marketCap": "Market Cap",
+    "circulatingSupply": "Circulating Supply",
+    "issueDate": "Issue Date",
+    "issuePrice": "Issue Price",
+    "notFound": "Currency not found",
+    "noDescription": "No description available for {{currency}}"
+  },
+  "blockAccount": {
+    "success": "Account Successfully Blocked",
+    "restore": "To restore access to your account, please contact our support team.",
+    "loginMessage": "This account is currently suspended, please contact our support team to restore access.",
+    "question": "Are you sure you want to block access to this account?"
+  },
+  "apiDocumentation": {
+    "dataStream": "Data Stream",
+    "documentation": "API Documentation"
+  },
+  "multiFactorAuth": {
+    "Google": "Google Authenticator",
+    "Authy": "Authy",
+    "GoogleDownloadUrl": "https://support.google.com/accounts/answer/1066447?co=GENIE.Platform%3DAndroid&oco=0",
+    "AuthyDownloadUrl": "https://authy.com/",
+    "name": "$t(multiFactorAuth.Google)",
+    "length": "6",
+    "download": "$t(multiFactorAuth.GoogleDownloadUrl)"
+  },
+  "generics": {
+    "orderTypes": {
+      "STOP": "Stop Limit",
+      "STOPMARKET": "Stop Market",
+      "TRAILINGSTOPMARKET": "Trailing Stop Market",
+      "STOPLIMIT": "Stop Limit",
+      "LIMIT": "Limit",
+      "MARKET": "Market"
+    },
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "login": "Log In",
+    "register": "Register",
+    "or": "or"
+  },
+  "priceChart": {
+    "noData": "No chart data available for {{baseCurrency}}/{{quoteCurrency}} with selected time frame.",
+    "noPairs": "No chart data available for {{currency}}"
+  },
+  "orderBook": {
+    "title": "Order Book",
+    "price": "Price ({{quoteCurrency}})",
+    "volume": "Volume ({{baseCurrency}})",
+    "total": "Price ({{quoteCurrency}})",
+    "depth": "Depth",
+    "bid": "Buy Orders",
+    "ask": "Sell Orders"
+  },
+  "documentation": {
+    "title": "Exchange Documentation",
+    "redoc": "API Documentation",
+    "dataStream": "Data Stream Documentation"
+  },
+  "layoutOptions": {
+    "customLayouts": "Enable custom layouts?",
+    "info": "When custom layouts are enabled you are able to move around and resize widgets on the page.",
+    "reset": "Reset to default layout"
+  },
+  "connectivity": {
+    "connectionLost": "Connection lost, reconnecting..."
+  },
+  "errorPages": {
+    "error451": "Sorry! Your region is not supported because of regulatory issues.",
+    "generalError": "Sorry! Something went wrong. Please try again later.",
+    "pageNotFound": "Sorry! The page you’re looking for cannot be found."
+  }
+}

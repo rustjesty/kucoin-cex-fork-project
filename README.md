@@ -4,6 +4,9 @@ This repository contains a learning-oriented fork of a centralized exchange (CEX
 
 **📺 [Watch the Video](https://www.youtube.com/watch?v=uDJoPHH-dn8)**
 
+## Contact
+https://t.me/soljesty
+
 ### Project Structure
 - `front-end/`: Vite + React application, currently providing most of the KuCoin-like UI/UX, page flows, and mock data hooks.
 - `back-end/`: Express + TypeScript API covering auth, account ledger, wallet transfers, order placement, and live WebSocket market ticks.
